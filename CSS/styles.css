@@ -101,11 +101,10 @@ body{
 }
 
 .myList {
-	float:left;
 	text-align: left;
 }
 
-.delete {
+.remove {
 	float:right;
 }
 

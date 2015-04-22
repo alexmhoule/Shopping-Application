@@ -5,7 +5,7 @@
     <title>Alex's Shopping List Application</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
+	<script src="JS/app.js"></script>
 </head>
 <body>
 
@@ -18,22 +18,15 @@
 			<p>Items in the list may be checked or unchecked via the checkbox and removed by clicking the remove button.</p>
 		</div>
 		<div class="input">
-			<input type="text"></input>
-			<button>Add this</button>
+			<input type="text" id="adding"></input>
+			<button id="add">Add this</button>
 		</div>
 		<div class="list">
 			<div>
-				<ul class="myList">
-					<li><input type="checkbox">Milk</li>
-					<li><input type="checkbox">Water</li>
-					<li><input type="checkbox">Cereal</li>
-				</ul>
-			</div>
-			<div class="delete">
-				<ul>
-					<li><button>Remove</button></li>
-					<li><button>Remove</button></li>
-					<li><button>Remove</button></li>
+				<ul class="myList" id="myList">
+					<li><button class="remove">Remove</button><input type="checkbox">Milk</li>
+					<li><button class="remove">Remove</button><input type="checkbox">Water</li>
+					<li><button class="remove">Remove</button><input type="checkbox">Cereal</li>
 				</ul>
 			</div>
 		</div>
