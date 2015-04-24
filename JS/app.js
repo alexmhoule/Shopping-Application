@@ -8,7 +8,7 @@ $(document).ready(function () {
 			$('input#adding').val("");
 		}
 		});
-		$('.remove').click(function () {
+		$('ul').click('.remove' function () {
 			$(this).parent().remove();
 		});
 });
