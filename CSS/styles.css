@@ -106,6 +106,7 @@ body{
 
 .remove {
 	float:right;
+	display: block;
 }
 
 
