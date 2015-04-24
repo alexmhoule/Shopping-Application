@@ -8,4 +8,7 @@ $(document).ready(function () {
 			$('input#adding').val("");
 		}
 		});
+		$('.remove').click(function () {
+			$(this).closest('#myList').remove();
+		});
 });
