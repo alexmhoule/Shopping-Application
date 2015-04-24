@@ -106,7 +106,8 @@ body{
 
 .remove {
 	float:right;
-	vertical-align: right;
+	display: block;
+	margin:0 auto;
 }
 
 
