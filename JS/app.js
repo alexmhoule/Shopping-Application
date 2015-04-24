@@ -9,7 +9,6 @@ $(document).ready(function () {
 		}
 		});
 		$('.remove').click(function () {
-			$(this).closest('li').toggleClass('remove');
 			$(this).parent().remove();
 		});
 });
