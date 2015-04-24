@@ -9,6 +9,6 @@ $(document).ready(function () {
 		}
 		});
 		$('.remove').click(function () {
-			$(this).remove();
+			$(this).parent().remove();
 		});
 });
