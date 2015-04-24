@@ -9,6 +9,6 @@ $(document).ready(function () {
 		}
 		});
 		$('.remove').click(function () {
-			$(this).closest('li').remove();
+			$(this).parent().remove();
 		});
 });
